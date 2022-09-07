@@ -56,7 +56,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (newptr);
 }
-
 /**
  * _reallocdp - reallocates a memory block of a double pointer.
  * @ptr: double pointer to the memory previously allocated.

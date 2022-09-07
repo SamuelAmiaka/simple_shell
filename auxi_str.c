@@ -23,6 +23,7 @@ char *_strcat(char *dest, const char *src)
 	dest[i] = '\0';
 	return (dest);
 }
+
 /**
  * *_strcpy - Copies the string pointed to by src.
  * @dest: Type char pointer the dest of the copied str

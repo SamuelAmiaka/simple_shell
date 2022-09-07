@@ -32,7 +32,6 @@ int _strlen(const char *s)
 	}
 	return (len);
 }
-
 /**
  * cmp_chars - compare chars of strings
  * @str: input string.
